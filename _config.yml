@@ -110,27 +110,27 @@ content:
     layout: list
     content:
       - layout: left
-        sub_title: 1
+        sub_title: '1'
         description: [Cellular State Transformations Using Deep Learning for Precision Medicine Applications](https://doi.org/10.1016/j.patter.2020.100087)
 
       - layout: left
-        sub_title: 2
+        sub_title: '2'
         description: [Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.](https://doi.org/10.1186/s12885-022-09704-z)
 
       - layout: left
-        sub_title: 3
+        sub_title: '3'
         description: ['EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'](https://doi.org/10.1093/g3journal/jkac042)
 
       - layout: left
-        sub_title: 4
+        sub_title: '4'
         description: ['GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'](https://doi.org/10.1186/s12859-022-04629-7)
 
       - layout: left
-        sub_title: 5
+        sub_title: '5'
         description: [Exploring Lossy Compression of Gene Expression Matrices.](https://ieeexplore.ieee.org/abstract/document/8955120)
 
       - layout: left
-        sub_title: 6
+        sub_title: '6'
         description: [Our Superconducting Consciousness; A synthesis of neurophysiology, alchemy, and yoga into a theory of transcendental experience.](https://open.substack.com/pub/reedbender/p/our-superconducing-consciousness-26c9a82072fc?r=a4e3g&utm_campaign=post&utm_medium=web)
 
   ### ADD SOME MORE
