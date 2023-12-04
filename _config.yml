@@ -16,19 +16,7 @@ website: https://reedbender.com
 twitter_username: reedbndr
 github_username:  mrbende
 instagram_username: reedbendr
-youtube_username: MindBenderPodcast
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+youtube_username: @MindBenderPodcast
 
 ### ABOUT ME
 about_title: About Me
@@ -36,7 +24,7 @@ about_profile_image: images/profile.jpg
 about_content: |
   Hi, my name is Reed Bender and I am a full-stack engineer with over 7 years of experience specializing in machine learning and cloud engineering for biomedical research. I am currently working as a freelance engineer, building intelligent systems with generative AI to custom suit the needs of research labs and educational platforms.
 
-  My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget more intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>Github Workflows</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>AWS</mark>, <mark>Tensorflow / Keras</mark>, and <mark>Scanpy</mark>.
+  My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget more intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>git</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>HuggingFace</mark>, <mark>AWS</mark>, <mark>Tensorflow</mark>, <mark>Keras</mark>, and <mark>Scanpy</mark>.
 
 content:
   ### PROJECTS
@@ -46,61 +34,94 @@ content:
       - layout: top-middle
         title: Pria
         link: https://hiimpria.ai
-        # link_text: Project Website
         additional_links:
-          - title:  about-pria
+          - title: about-pria
+            icon: fab fa-github
             url: https://praxis-ai.com/pria/
-
         quote: >
-          "I asked my class to raise their hand if Pria helped them. Every single hand instantly shot up.""
-        description: | # this will include new lines to allow paragraphs
+          "I asked my class to raise their hand if Pria helped them. Every single hand instantly shot up."
+        description: |
           I started this project while consulting with [Praxis AI](https://praxis-ai.com/pria), suggesting we build a Generative AI mentor to go along with their digital course content. I then proceeded to build the **Generative Intelligence Engine**:tm:, which served as Pria's backend <mark>Flask</mark> server. I was responsible for creating and managing <mark>Gitlab CI/CD</mark> pipelines, deploying the application to a production environment in <mark>AWS</mark>, and managing billing across various API tools.
 
-          While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, I worked with <mark>Langchain</mark> agents and document integration chains, and I built multiple Retrieval-Augmented Generation tools for integrating various data formats into Pria's core knowledgebase.
+          While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, worked with <mark>Langchain</mark> agents and document integration chains, and created custom vector-embedding tools for expanding Pria's knowledgebase.
           Pria is now being successfully used by dozens of academic (institutions across the country and received two awards in the 2023 American Business Awards: *GOLD* for [Achievement in Online Training](https://stevieawards.com/aba/web-awards), and *BRONZE* for [Use of Artificial Intelligence in EdTech](https://stevieawards.com/aba/product-management-new-product-awards).
 
   ### EXPERIENCE
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Generative AI Engineer at Praxis AI
+        link: https://praxis-ai.com/about/
+        additional_links:
+          - title: alex-ref
+            icon: fas fa-user-tie
+            url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
+        caption: September 2022 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Spearheading AI innovations in education and research.
+        description: |
+          At Praxis AI, my key contribution was creating the generative AI backend for *Pria* from scratch as a LLM-agnostic agent that can source between tools, manage various users and institutions, and perform Retrieval Augmented Generation on any data provided by users. She combines custom-built literature search tools, <mark>Zapier</mark> web hooks, long-term vector embedding memory in <mark>Pinecone</mark>, image generation with <mark>Stable Diffusion</mark>, and compatibility with ChatGPT plugins.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+          Additionally, I created and led a 12-week **[Foundations of AI](https://praxis-ai.com/courses/course-ai-foundations/)** digital course, covering extensive topics from Data Science to generative AI APIs, which also received a *GOLD* for [K-12 Course or Learning Management Solution](https://stevieawards.com/aba/product-management-new-product-awards) at the 2023 American Business Awards. This course covers everything from introductory statistics and linear algebra to advanced deep learning architectures, culminating in students building a <mark>Transformer</mark> model from scratch.
+
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Research Associate, Computational Biology / AI at Flagship Labs 84
+        link: https://www.flagshippioneering.com/preemptive-health
+        additional_links:
+          - title: scott-ref
+            icon: fas fa-user-tie
+            url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Lipnick_recommendation.png
+        caption: September 2021 - March 2023
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Pioneering preventative medicine through computational biology.
+        description: |
+          At Flagship Labs 84, an early-phase pharmeceutical startup, I spearheaded the development of the computational pipelines and cloud infrastructure for single-cell biomedical research. Being the first computational team member, I was responsible for acting as **system-administrator** for our <mark>AWS</mark> environments, building the processing pipelines for our raw transcriptional data into actionable research insights, visualizing single-cell biology analyses for research presentations, and integrating DevOps practices to streamline workflow and enhance collaboration using Gitlab. 
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Consulting Research Scientist at The Institute for Advanced Consciousness Studies (IACS)
+        link: https://advancedconsciousness.org/
+        additional_links:
+          - title: nicco-ref
+            icon: fas fa-user-tie
+            url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Reggente_recommendation.png
+        caption: August 2022 - Present
+        quote: >
+          Delving into consciousness studies with AI applications.
+        description: |
+          At the Institute for Advanced Consciousness Studies (IACS), I am actively engaged in a cutting-edge research project, initiated after my participation in The Science of Consciousness conference in April 2022. 
+          We aim to explore the pineal gland's role in human cognition and consciousness, and I am personally interested in understanding how bioelectrical impulses produced by the pineal gland could result in emergent intelligence and negentropic coordination. While my professional focus continues to be developing software applicaions using AI to build novel and useful intelligent systems, I am incredibly interested in how this same mechanism can be applied to our understanding of biological systems. All of this is tied together with a fascination in the subject of consciousness, and I bring this curiosity about the nature of experience to all of my engineering projects.
 
+          You can check out our research proposal *[here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://advancedconsciousness.org/wp-content/uploads/2023/01/IACS-Pineal-Gland-Neuromodulation-Donation-Deck-January-2023.pdf)*.
+
+  ### EDUCATION
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Clemson University
+        sub_title: M.S. in Biomedical Data Science and Informatics
+        caption: September 2019 - May 2021
+        quote: >
+          A comprehensive program blending bioinformatics and data science.
+        description: |
+          I earned my Master's degree in Biomedical Data Science and Informatics from Clemson University. This advanced degree, which began during the fourth year of my undergraduate studies, focused on the intersection of bioinformatics, data science, and healthcare technologies.
+
+      - layout: top-right
+        title: Clemson University
+        sub_title: B.S. in Bioengineering
+        caption: September 2016 - May 2020
+        quote: >
+          Focusing on Biomaterials with a minor in Genetics.
+        description: |
+          At Clemson University, I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College.
+
+  ### ADD SOME MORE
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-
+    content: | 
+      This is where I'll add a bit more...
+      
 ### BUILD
 footer_show_references: true
 remote_theme: sproogen/resume-theme
