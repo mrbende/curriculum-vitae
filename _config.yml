@@ -22,7 +22,7 @@ youtube_username: '@MindBenderPodcast'
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name is Reed Bender and I am a full-stack engineer with over 7 years of experience specializing in machine learning and cloud engineering for biomedical research. I am currently working as a freelance engineer, building intelligent systems with generative AI to custom suit the needs of research labs and educational platforms.
+  Hi, my name is Reed Bender and I am a full-stack engineer with over 7 years of experience specializing in machine learning and cloud engineering for biomedical research. I am currently working as a freelance engineer, building intelligent systems with generative AI to address the needs of research labs and educational platforms.
 
   My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget future intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>git</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>HuggingFace</mark>, <mark>AWS</mark>, <mark>Tensorflow</mark>, <mark>Keras</mark>, and <mark>Scanpy</mark>.
 
