@@ -1,57 +1,107 @@
 # Site
-repository: mrbende/curriculum-vitae
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Reed Bender
-title: Generative AI Engineer // Computational Biologist
-email: reedbndr@gmail.com
-website: www.reedbender.com
+title: Computational Biologist // Generative AI Engineer
+email: reedbndr at gmail dot com
+website: https://reedbender.com/
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
 twitter_username: reedbndr
-github_username: mrbende
+github_username:  mrbende
+instagram_username: reedbendr
+youtube_username: MindBenderPodcast
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
-about_profile_image: images/profile.jpg
-about_content: |
-  Hi, I'm Reed Bender, a passionate Bioengineering and Biomedical Data Science & Informatics professional. My expertise lies in Generative AI Engineering and Computational Biology. I have a strong background in both academia and industry, with a focus on developing and applying AI-driven solutions in the biomedical field. 
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  I am skilled in technologies like OpenAI, Langchain, Stable Diffusion, Zapier, Python, Docker, AWS, Flask, GitLab C/I, Pinecone, and more.
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Engineering Experience
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
     layout: list
     content:
-      - layout: top-middle
-        title: Generative AI Engineer at Praxis AI
-        link: praxis-ai.com/about/
-        description: |
-          As a Generative AI Engineer at Praxis AI, I've been instrumental in developing the AI-powered virtual mentor "Pria", which leverages Langchain agents and GPT-4. I have also taught a 12-week AI course and contributed to Praxis AI's numerous accolades.
-
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
   - title: Education
     layout: list
     content:
-      - layout: left
-        title: Clemson University
-        caption: September 2016 - May 2021
-        sub_title: M.S. in Biomedical Data Science and Informatics, B.S. in Bioengineering
-        description: |
-          At Clemson University, I pursued a dual degree in Bioengineering (B.S.) and Biomedical Data Science and Informatics (M.S.). I focused on biomaterials, genetics, and was part of the Clemson Honors College.
-
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
   - title: A Little More About Me
     layout: text
-    content: |
-      In addition to my professional interests, I am passionate about yoga, breathwork, and biohacking. I am also a certified Yoga and Breathwork Instructor. I enjoy exploring new technologies and applying them to solve complex problems in the biomedical field.
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -59,3 +109,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
