@@ -65,16 +65,16 @@ content:
 
       - layout: left
         title: Research Associate, Computational Biology / AI at Flagship Labs 84
-        link: https://www.flagshippioneering.com/preemptive-health
+        link: https://www.flagshippioneering.com/
         additional_links:
           - title: scott-ref
             icon: fas fa-star
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Lipnick_recommendation.png
         caption: September 2021 - March 2023
         description: |
-          At Flagship Labs 84, an early-stage pharmaceutical startup, I played a crucial role as the first computational biologist, primarily focusing on developing advanced computational pipelines and managing cloud infrastructure for single-cell biomedical research. As the pioneering member of the computational team, I was tasked with system administration within our AWS environments, where I streamlined operations and fostered collaboration through the integration of DevOps practices using Gitlab.
+          At Flagship Labs 84, an early-stage pharmaceutical startup, I played a crucial role as the first computational biologist tasked with developing advanced computational pipelines and managing cloud infrastructure for single-cell biomedical research.
 
-          My responsibilities included architecting and executing sophisticated data processing pipelines, specifically designed for high-throughput single-cell genomics. Utilizing my Python skills and the <mark>Scanpy</mark> package, I automated and refined numerous stages of data analysis, ensuring the efficient processing and insightful interpretation of extensive genomic datasets. This involved a meticulous approach to preprocessing, statistical analysis, and the visualization of single-cell biology data, contributing significantly to the lab's research capabilities. Moreover, my expertise was instrumental in configuring and maintaining high-performance cloud-based computational resources, vital for the demanding computational tasks encountered in cutting-edge genomic research.
+          My responsibilities included architecting and executing sophisticated data processing pipelines, specifically designed for high-throughput single-cell genomics. Utilizing my Python skills and the <mark>Scanpy</mark> package, combined with expertise in <mark>AWS</mark> cloud architecture, I automated and refined numerous stages of data analysis, ensuring the efficient processing and insightful interpretation of extensive genomic datasets. My expertise was instrumental in configuring and maintaining high-performance cloud-based computational resources appropriate for the computational tasks encountered in cutting-edge genomics research.
 
       - layout: left
         title: Consulting Research Scientist at The Institute for Advanced Consciousness Studies (IACS)
