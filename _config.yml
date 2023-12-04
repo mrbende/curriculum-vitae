@@ -16,7 +16,7 @@ website: https://reedbender.com
 twitter_username: reedbndr
 github_username:  mrbende
 instagram_username: reedbendr
-youtube_username: @MindBenderPodcast
+youtube_username: '@MindBenderPodcast'
 
 ### ABOUT ME
 about_title: About Me
@@ -121,7 +121,7 @@ content:
     layout: text
     content: | 
       This is where I'll add a bit more...
-      
+
 ### BUILD
 footer_show_references: true
 remote_theme: sproogen/resume-theme
