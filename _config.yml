@@ -82,7 +82,6 @@ content:
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Reggente_recommendation.png
         caption: August 2022 - Present
-          Delving into consciousness studies with AI applications.
         description: |
           At the Institute for Advanced Consciousness Studies (IACS), I am actively engaged in a cutting-edge research project aimed to explore the pineal gland's role in human cognition and consciousness. I am personally interested in understanding how bioelectrical impulses produced by the pineal gland could result in emergent intelligence and negentropic coordination throughout the phenomenal experience. While my professional focus continues to be developing software applicaions using AI that integrate novel and useful intelligent systems, I am incredibly interested in how this same mechanism can be applied to our understanding of biological systems. All of this is tied together with a fascination in the subject of consciousness, and I bring this curiosity about the nature of human experience to all of my engineering projects.
 
@@ -111,35 +110,28 @@ content:
     layout: list
     content:
       - layout: left
-        caption: Cellular State Transformations Using Deep Learning for Precision Medicine Applications
-        description: https://doi.org/10.1016/j.patter.2020.100087
+        description: [Cellular State Transformations Using Deep Learning for Precision Medicine Applications](https://doi.org/10.1016/j.patter.2020.100087)
 
       - layout: left
-        caption: Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.
-        description: https://doi.org/10.1186/s12885-022-09704-z
+        description: [Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.](https://doi.org/10.1186/s12885-022-09704-z)
 
       - layout: left
-        caption: 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'
-        description: https://doi.org/10.1093/g3journal/jkac042
+        description: ['EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'](https://doi.org/10.1093/g3journal/jkac042)
 
       - layout: left
-        caption: 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'
-        description: https://doi.org/10.1186/s12859-022-04629-7
+        description: ['GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'](https://doi.org/10.1186/s12859-022-04629-7)
 
       - layout: left
-        caption: Exploring Lossy Compression of Gene Expression Matrices. 
-        description: https://ieeexplore.ieee.org/abstract/document/8955120
+        description: [Exploring Lossy Compression of Gene Expression Matrices.](https://ieeexplore.ieee.org/abstract/document/8955120)
 
       - layout: left
-        caption: Our Superconducting Consciousness; A synthesis of neurophysiology, alchemy, and yoga into a theory of transcendental experience.
-        description: https://open.substack.com/pub/reedbender/p/our-superconducing-consciousness-26c9a82072fc?r=a4e3g&utm_campaign=post&utm_medium=web
-
+        description: [Our Superconducting Consciousness; A synthesis of neurophysiology, alchemy, and yoga into a theory of transcendental experience.](https://open.substack.com/pub/reedbender/p/our-superconducing-consciousness-26c9a82072fc?r=a4e3g&utm_campaign=post&utm_medium=web)
 
   ### ADD SOME MORE
   - title: A Little More About Me
     layout: text
     content: | 
-      This is where I'll add a bit more...
+      When I'm not writing code or 
 
 ### BUILD
 footer_show_references: true
