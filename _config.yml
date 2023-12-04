@@ -24,7 +24,7 @@ about_profile_image: images/profile.jpg
 about_content: |
   Hi, my name is Reed Bender and I am a full-stack engineer with over 7 years of experience specializing in machine learning and cloud engineering for biomedical research. I am currently working as a freelance engineer, building intelligent systems with generative AI to custom suit the needs of research labs and educational platforms.
 
-  My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget more intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>git</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>HuggingFace</mark>, <mark>AWS</mark>, <mark>Tensorflow</mark>, <mark>Keras</mark>, and <mark>Scanpy</mark>.
+  My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget future intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>git</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>HuggingFace</mark>, <mark>AWS</mark>, <mark>Tensorflow</mark>, <mark>Keras</mark>, and <mark>Scanpy</mark>.
 
 content:
   ### PROJECTS
@@ -36,15 +36,15 @@ content:
         link: https://hiimpria.ai
         additional_links:
           - title: about-pria
-            icon: fab fa-github
+            icon: fas fa-link
             url: https://praxis-ai.com/pria/
         quote: >
           "I asked my class to raise their hand if Pria helped them. Every single hand instantly shot up."
         description: |
-          I started this project while consulting with [Praxis AI](https://praxis-ai.com/pria), suggesting we build a Generative AI mentor to go along with their digital course content. I then proceeded to build the **Generative Intelligence Engine**:tm:, which served as Pria's backend <mark>Flask</mark> server. I was responsible for creating and managing <mark>Gitlab CI/CD</mark> pipelines, deploying the application to a production environment in <mark>AWS</mark>, and managing billing across various API tools.
+          I started this project while consulting with Praxis AI, suggesting we build a Generative AI mentor to go along with their digital course content. I then proceeded to build the **Generative Intelligence Engine**<i class="fas fa-trademark"></i>, which served as Pria's backend <mark>Flask</mark> server. I was responsible for creating and managing <mark>Gitlab CI/CD</mark> pipelines, deploying the application to a production environment in <mark>AWS</mark>, and deploying the production application to a dynamically-scaled and load-balanced <mark>Elastic Container Service</mark>.
 
           While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, worked with <mark>Langchain</mark> agents and document integration chains, and created custom vector-embedding tools for expanding Pria's knowledgebase.
-          Pria is now being successfully used by dozens of academic (institutions across the country and received two awards in the 2023 American Business Awards: *GOLD* for [Achievement in Online Training](https://stevieawards.com/aba/web-awards), and *BRONZE* for [Use of Artificial Intelligence in EdTech](https://stevieawards.com/aba/product-management-new-product-awards).
+          Pria is now being successfully used by dozens of academic institutions across the country and received two awards in the 2023 American Business Awards: *GOLD* for [Achievement in Online Training](https://stevieawards.com/aba/web-awards), and *BRONZE* for [Use of Artificial Intelligence in EdTech](https://stevieawards.com/aba/product-management-new-product-awards).
 
   ### EXPERIENCE
   - title: Experience
@@ -58,8 +58,6 @@ content:
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
         caption: September 2022 - Present
-        quote: >
-          Spearheading AI innovations in education and research.
         description: |
           At Praxis AI, my key contribution was creating the generative AI backend for *Pria* from scratch as a LLM-agnostic agent that can source between tools, manage various users and institutions, and perform Retrieval Augmented Generation on any data provided by users. She combines custom-built literature search tools, <mark>Zapier</mark> web hooks, long-term vector embedding memory in <mark>Pinecone</mark>, image generation with <mark>Stable Diffusion</mark>, and compatibility with ChatGPT plugins.
 
@@ -73,8 +71,6 @@ content:
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Lipnick_recommendation.png
         caption: September 2021 - March 2023
-        quote: >
-          Pioneering preventative medicine through computational biology.
         description: |
           At Flagship Labs 84, an early-phase pharmeceutical startup, I spearheaded the development of the computational pipelines and cloud infrastructure for single-cell biomedical research. Being the first computational team member, I was responsible for acting as **system-administrator** for our <mark>AWS</mark> environments, building the processing pipelines for our raw transcriptional data into actionable research insights, visualizing single-cell biology analyses for research presentations, and integrating DevOps practices to streamline workflow and enhance collaboration using Gitlab. 
 
@@ -86,11 +82,9 @@ content:
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Reggente_recommendation.png
         caption: August 2022 - Present
-        quote: >
           Delving into consciousness studies with AI applications.
         description: |
-          At the Institute for Advanced Consciousness Studies (IACS), I am actively engaged in a cutting-edge research project, initiated after my participation in The Science of Consciousness conference in April 2022. 
-          We aim to explore the pineal gland's role in human cognition and consciousness, and I am personally interested in understanding how bioelectrical impulses produced by the pineal gland could result in emergent intelligence and negentropic coordination. While my professional focus continues to be developing software applicaions using AI to build novel and useful intelligent systems, I am incredibly interested in how this same mechanism can be applied to our understanding of biological systems. All of this is tied together with a fascination in the subject of consciousness, and I bring this curiosity about the nature of experience to all of my engineering projects.
+          At the Institute for Advanced Consciousness Studies (IACS), I am actively engaged in a cutting-edge research project aimed to explore the pineal gland's role in human cognition and consciousness. I am personally interested in understanding how bioelectrical impulses produced by the pineal gland could result in emergent intelligence and negentropic coordination throughout the phenomenal experience. While my professional focus continues to be developing software applicaions using AI that integrate novel and useful intelligent systems, I am incredibly interested in how this same mechanism can be applied to our understanding of biological systems. All of this is tied together with a fascination in the subject of consciousness, and I bring this curiosity about the nature of human experience to all of my engineering projects.
 
           You can check out our research proposal *[here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://advancedconsciousness.org/wp-content/uploads/2023/01/IACS-Pineal-Gland-Neuromodulation-Donation-Deck-January-2023.pdf)*.
 
@@ -102,19 +96,44 @@ content:
         title: Clemson University
         sub_title: M.S. in Biomedical Data Science and Informatics
         caption: September 2019 - May 2021
-        quote: >
-          A comprehensive program blending bioinformatics and data science.
         description: |
-          I earned my Master's degree in Biomedical Data Science and Informatics from Clemson University. This advanced degree, which began during the fourth year of my undergraduate studies, focused on the intersection of bioinformatics, data science, and healthcare technologies.
+          I earned my Master's degree in Biomedical Data Science and Informatics from Clemson University. This advanced degree, which began during the fourth year of my undergraduate studies, focused on the intersection of bioinformatics, data science, and healthcare technologies. During this time, I was involved in three years of computational genetics research focused on utilizing AI for precision-medicine in cancer. I recieved five publications during this three year research tenure, including [one co-first authorship](https://doi.org/10.1016/j.patter.2020.100087).
 
       - layout: top-right
         title: Clemson University
         sub_title: B.S. in Bioengineering
         caption: September 2016 - May 2020
-        quote: >
-          Focusing on Biomaterials with a minor in Genetics.
         description: |
-          At Clemson University, I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College.
+          I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College. I began my tenure in Dr. Alex Feltus' research lab as a Junior in 2018, and continued this research through my masters program.
+
+### PUBLICATIONS
+- title: Publications
+  layout: list
+  content:
+    - layout: left
+      sub_title: Cellular State Transformations Using Deep Learning for Precision Medicine Applications
+      caption: https://doi.org/10.1016/j.patter.2020.100087
+
+    - layout: left
+      sub_title: Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.
+      caption: https://doi.org/10.1186/s12885-022-09704-z
+
+    - layout: left
+      sub_title: 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'
+      caption: https://doi.org/10.1093/g3journal/jkac042
+
+    - layout: left
+      sub_title: 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'
+      caption: https://doi.org/10.1186/s12859-022-04629-7
+
+    - layout: left
+      sub_title: Exploring Lossy Compression of Gene Expression Matrices. 
+      caption: https://ieeexplore.ieee.org/abstract/document/8955120
+
+    - layout: left
+      sub_title: Our Superconducting Consciousness; A synthesis of neurophysiology, alchemy, and yoga into a theory of transcendental experience.
+      caption: https://open.substack.com/pub/reedbender/p/our-superconducing-consciousness-26c9a82072fc?r=a4e3g&utm_campaign=post&utm_medium=web
+
 
   ### ADD SOME MORE
   - title: A Little More About Me
