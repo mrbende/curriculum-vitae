@@ -55,7 +55,7 @@ content:
         link: https://praxis-ai.com/about/
         additional_links:
           - title: alex-ref
-            icon: fas fa-star
+            icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
         caption: September 2022 - Present
         description: |
@@ -68,7 +68,7 @@ content:
         link: https://www.flagshippioneering.com/
         additional_links:
           - title: scott-ref
-            icon: fas fa-star
+            icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Lipnick_recommendation.png
         caption: September 2021 - March 2023
         description: |
@@ -81,7 +81,7 @@ content:
         link: https://advancedconsciousness.org/
         additional_links:
           - title: nicco-ref
-            icon: fas fa-star
+            icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Reggente_recommendation.png
         caption: August 2022 - Present
         description: |
