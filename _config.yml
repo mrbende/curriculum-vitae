@@ -35,7 +35,8 @@ about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
   Hi, my name is Reed Bender and I am a full-stack engineer with over 7 years of experience specializing in machine learning and cloud engineering for biomedical research. I am currently working as a freelance engineer, building intelligent systems with generative AI to custom suit the needs of research labs and educational platforms.
-  My work is centered around harnessing the principles of super-exponential growth, ensuring that when teams are equipped with intelligent systems, their capacity for creating innovative solutions accelerates at an increasing rate. I am passionate about collaborating with teams to develop these advanced systems, leveraging my expertise to create a synergy where the integration of intelligent technology not only enhances current capabilities but also paves the way for more rapid and groundbreaking advancements in the future. I am proficient with a range of different languages and frameworks and I am always looking for opportunities to work with something new. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>Github Workflows</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>AWS</mark>, <mark>Tensorflow / Keras</mark>, and <mark>Scanpy</mark>.
+
+  My work is driven by the principle of super-exponential growth; I believe that innovation accelerates future innovation, and intelligent systems beget more intelligence. I collaborate closely with teams to develop these technologies, using my proficiency in various languages and frameworks to create impactful, advanced solutions. The things that I currently have the most experience working with are: <mark>Python</mark>, <mark>Docker</mark>, <mark>Nextflow</mark>, <mark>Kubernetes</mark>, <mark>Github Workflows</mark>, <mark>ChatGPT</mark>, <mark>Langchain</mark>, <mark>AWS</mark>, <mark>Tensorflow / Keras</mark>, and <mark>Scanpy</mark>.
 
 content:
   ### PROJECTS
@@ -54,7 +55,8 @@ content:
           "I asked my class to raise their hand if Pria helped them. Every single hand instantly shot up.""
         description: | # this will include new lines to allow paragraphs
           I started this project while consulting with [Praxis AI](https://praxis-ai.com/pria), suggesting we build a Generative AI mentor to go along with their digital course content. I then proceeded to build the **Generative Intelligence Engine**:tm:, which served as Pria's backend <mark>Flask</mark> server. I was responsible for creating and managing <mark>Gitlab CI/CD</mark> pipelines, deploying the application to a production environment in <mark>AWS</mark>, and managing billing across various API tools.
-          While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, I worked with `Langchain` agents and document integration chains, and I built multiple Retrieval-Augmented Generation tools for integrating various data formats into Pria's core knowledgebase.
+
+          While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, I worked with <mark>Langchain</mark> agents and document integration chains, and I built multiple Retrieval-Augmented Generation tools for integrating various data formats into Pria's core knowledgebase.
           Pria is now being successfully used by dozens of academic (institutions across the country and received two awards in the 2023 American Business Awards: *GOLD* for [Achievement in Online Training](https://stevieawards.com/aba/web-awards), and *BRONZE* for [Use of Artificial Intelligence in EdTech](https://stevieawards.com/aba/product-management-new-product-awards).
 
   ### EXPERIENCE
