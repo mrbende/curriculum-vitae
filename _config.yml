@@ -109,8 +109,8 @@ content:
   - title: Publications
     layout: list
     content:
-    - layout: left
-      sub_title: '1'
+      - layout: left
+        sub_title: '1'
         description: [Cellular State Transformations Using Deep Learning for Precision Medicine Applications](https://doi.org/10.1016/j.patter.2020.100087)
       - layout: left
         sub_title: '2'
