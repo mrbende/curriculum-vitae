@@ -59,6 +59,7 @@ content:
           - title: alex-ref
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
+            text: Reference
         caption: September 2022 - December 2023
         description: |
           In addition to building the backend for Pria, I created and led a 12-week **[Foundations of AI](https://praxis-ai.com/courses/course-ai-foundations/)** digital course, covering extensive topics from data science to generative AI integrations, which also received a *GOLD* for [K-12 Course or Learning Management Solution](https://stevieawards.com/aba/product-management-new-product-awards) at the 2023 American Business Awards. This course covers everything from introductory statistics and linear algebra to advanced deep learning architectures, culminating in students building a <mark>Transformer</mark> model from scratch.
@@ -70,6 +71,7 @@ content:
           - title: scott-ref
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Lipnick_recommendation.png
+            text: Reference
         caption: September 2021 - March 2023
         description: |
           At Flagship Labs 84, an early-stage pharmaceutical startup, I played a crucial role as the first computational biologist tasked with developing advanced computational pipelines and managing cloud infrastructure for single-cell biomedical research.
