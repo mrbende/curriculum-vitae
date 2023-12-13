@@ -14,6 +14,7 @@ website: https://reedbender.com
 
 ### SOCIAL
 twitter_username: reedbndr
+linkedin_username: reed-bender
 github_username:  mrbende
 instagram_username: reedbendr
 youtube_username: '@MindBenderPodcast'
@@ -57,7 +58,7 @@ content:
           - title: alex-ref
             icon: fas fa-user-tie
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
-        caption: September 2022 - Present
+        caption: September 2022 - December 2023
         description: |
           At Praxis AI, my key contribution was creating the generative AI backend for *Pria* as a LLM-agnostic agent that can source between tools and various language models, manage concurrent users and institutions, and perform Retrieval Augmented Generation on any data provided by users. She combines custom-built literature search tools, <mark>Zapier</mark> web hooks, long-term vector embedding memory in <mark>Pinecone</mark>, image generation with <mark>Stable Diffusion</mark>, and compatibility with ChatGPT plugins.
 
@@ -76,18 +77,65 @@ content:
 
           My responsibilities included architecting and executing sophisticated data processing pipelines, specifically designed for high-throughput single-cell genomics. Utilizing my Python skills and the <mark>Scanpy</mark> package, combined with expertise in <mark>AWS</mark> cloud architecture, I automated and refined numerous stages of data analysis, ensuring the efficient processing and insightful interpretation of extensive genomic datasets. My expertise was instrumental in configuring and maintaining high-performance cloud-based computational resources appropriate for the computational tasks encountered in cutting-edge biomedical research.
 
+  ### CITATION REFERENCES
+  - title: Publications
+    layout: list
+    content:
       - layout: left
-        title: Consulting Research Scientist at The Institute for Advanced Consciousness Studies (IACS)
-        link: https://advancedconsciousness.org/
-        additional_links:
-          - title: nicco-ref
-            icon: fas fa-user-tie
-            url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Reggente_recommendation.png
-        caption: August 2022 - Present
-        description: |
-          At the Institute for Advanced Consciousness Studies (IACS), I am actively engaged in crowdfunding for a cutting-edge research project aimed to explore the pineal gland's role in human cognition and consciousness. I am personally interested in understanding how bioelectrical impulses produced by the pineal gland could result in emergent intelligence and negentropic coordination throughout one's phenomenal experience. While my professional focus continues to be developing software applicaions using AI that integrate novel and useful intelligent systems, I am incredibly interested in how this same mechanism can be applied to our understanding of biology. All of this is tied together with a fascination in the subject of consciousness, and I bring this curiosity about the nature of human experience to all of my engineering projects.
+        sub_title: Cellular State Transformations Using Deep Learning for Precision Medicine Applications.
+        caption: Colin Targonski*, M. Reed Bender*, et al. September 2020, Cell Patterns. **[Link](https://doi.org/10.1016/j.patter.2020.100087)**
 
-          You can check out our research proposal *[here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://advancedconsciousness.org/wp-content/uploads/2023/01/IACS-Pineal-Gland-Neuromodulation-Donation-Deck-January-2023.pdf)*.
+      - layout: left
+        sub_title: 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'
+        caption: John A. Hadish, Tyler D. Biggs, Benjamin T. Shealy, M. Reed Bender, et al. May 2022, BMC Bioinformatics. **[Link](https://doi.org/10.1186/s12859-022-04629-7)**
+
+      - layout: left
+        sub_title: 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'
+        caption: Benafsh Husain, M. Reed Bender, Frank Alex Feltus. April 2022, G3. [Link](https://doi.org/10.1093/g3journal/jkac042)
+
+      - layout: left
+        sub_title: 'Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.'
+        caption: Nicole M. Nelligan, M. Reed Bender, F. Alex Feltus. June 2022, BMC Cancer. [Link](https://doi.org/10.1186/s12885-022-09704-z)
+
+      - layout: left
+        sub_title: 'Exploring Lossy Compression of Gene Expression Matrices.'
+        caption: Coleman B. McKnight, Alexandra L. Poulos, M. Reed Bender, et al. November 2019, Supercomputing Conference. [Link](https://ieeexplore.ieee.org/abstract/document/8955120)
+
+      - layout: left
+        sub_title: 'Our Superconducting Consciousness'
+        caption: Reed Bender. February 2022, Independently Published to Medium. [Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)
+
+  ### INVITED PRESENTATIONS
+  - title: Invited Presentations
+    layout: list
+    content:
+    - layout: top-right
+      title: NIH Cancer Moonshot Symposium
+      sub_title: Motivations For and Perceptions of Participants Controlling Their Own Data
+      caption: September 2019
+      description: |
+        I presented at the NIH Cancer Moonshot Symposium on Patient Control of Genomic Data for Research and Health in Bethesda, MD. During the seminar, I discussed patient autonomy in managing genomic data records, highlighting the need for increased patient involvement in cancer treatment decisions.
+
+    - layout: top-right
+      title: Internet2’s Technology Exchange Conference
+      sub_title: Scaling Genomics Workflows with Kubernetes Hybrid Cloud Solutions
+      caption: December 2019
+      description: |
+        At the Internet2’s Technology Exchange Conference in New Orleans, LA, I led a seminar workshop in collaboration with Cisco. The workshop aimed to educate cloud architects and computer engineering professionals about the basics of computational genomics and how to optimize cloud compute architecture for various bioinformatics workflows.
+
+    - layout: top-right
+      title: Tri-Con Drug Discovery Hackathon
+      sub_title: Preclinical Drug Discovery
+      caption: March 2020
+      description: |
+        I led a hackathon team at the Tri-Con Drug Discovery Hackathon in San Francisco, CA. Our goal was to identify precision drugs capable of targeting genetic aberrations in a patient's cancer, specifically focusing on Bill Paseman's case. We presented our team's findings to the hackathon and Tri-Con seminar audience.
+
+    - layout: top-right
+      title: Cisco Container Platform
+      sub_title: Accelerating Biological Research with Multicloud Kubernetes
+      caption: Cisco Container Platform Case Study
+      description: |
+        I was interviewed as part of a Cisco marketing video promoting their Cisco Container Platform (CCP). During the interview, I discussed my experience deploying containerized software onto Cisco's cloud platform.
 
   ### EDUCATION
   - title: Education
@@ -98,16 +146,16 @@ content:
         sub_title: M.S. in Biomedical Data Science and Informatics
         caption: September 2019 - May 2021
         description: |
-          I earned my Master's degree in Biomedical Data Science and Informatics from Clemson University. This advanced degree, which began during the fourth year of my undergraduate studies, focused on the intersection of bioinformatics, data science, and healthcare technologies. During this time, I was involved in computational genetics research focused on utilizing AI for precision-medicine in cancer. I contributed to five peer-reviewed publications during this three year research tenure, including [one co-first authorship](https://doi.org/10.1016/j.patter.2020.100087).
+          During my graduate research at Clemson University with Dr. Alex Feltus in the Genetics and Biochemistry Department, I focused on scaling bioinformatics workflows for cancer genomics. This involved optimizing pipelines on Kubernetes and Google Cloud for efficient analysis of large genomic datasets. I also trained undergraduate researchers and presented at the NIH Cancer Moonshot Symposium and Internet2's Technology Exchange Conference.
 
-          The rest of my publication history can be viewed [here](https://reedbender.com/research).
+          I'm proficient in Python, R, Bash, and orchestration tools like AWS, Docker, Nextflow, Kubernetes, GCP, and Cisco Container Platform. In my undergraduate research, I integrated patient-specific RNA-seq data into public datasets, applied deep learning for gene expression analysis, and co-authored publications, contributing to precision medicine in cancer.
 
       - layout: top-right
         title: Clemson University
         sub_title: B.S. in Bioengineering
         caption: September 2016 - May 2020
         description: |
-          I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College. My tenure in Dr. Alex Feltus' bioinformatics research lab began as a Junior in 2018, and continued through my masters program until graduating in 2021.
+          I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College. My tenure in Dr. Alex Feltus' bioinformatics research lab began as a Junior in 2018, and continued through my masters program until graduating in 2021. During my fourth year in 2020, I also
 
 ### BUILD
 footer_show_references: true
