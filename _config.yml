@@ -105,7 +105,7 @@ content:
         sub_title: M.S. in Biomedical Data Science and Informatics
         caption: September 2019 - May 2021
         description: |
-          During my graduate research at Clemson University with Dr. Alex Feltus in the Genetics and Biochemistry Department, I focused on scaling bioinformatics workflows for cancer genomics. This involved optimizing computational pipelines for efficient analysis of large genomic datasets, and scaling those pipelines onto distributed Kubernetes systems.
+          During my graduate research at Clemson University with Dr. Alex Feltus in the Genetics and Biochemistry Department, I focused on scaling bioinformatics workflows for cancer genomics. This involved optimizing computational pipelines for efficient analysis of large genomic datasets, and scaling those pipelines onto distributed Kubernetes systems such as the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/).
 
       - layout: top-right
         title: Clemson University
