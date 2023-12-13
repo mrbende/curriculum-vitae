@@ -42,9 +42,10 @@ content:
         quote: >
           "I asked my class to raise their hand if Pria helped them. Every single hand instantly shot up."
         description: |
-          I started this project while consulting with Praxis AI, suggesting we build a Generative AI mentor to go along with their digital course content. I then proceeded to build the **Generative Intelligence Engine**<i class="fas fa-trademark"></i>, which serves as Pria's backend <mark>Flask</mark> server. I was responsible for creating and managing <mark>Gitlab CI/CD</mark> pipelines, deploying the application to a containerized environment in <mark>AWS</mark>, and deploying the production application to a dynamically-scaled and load-balanced <mark>Elastic Container Service</mark>.
+          Pria began as an idea to build a Generative AI mentor to go along with Praxis AI's digital course content. I then proceeded to build the Generative Intelligence Engine<i class="fas fa-trademark"></i>, Pria's backend <mark>Flask</mark> server. In addition to creating and maintaining this backend, I was responsible for developing <mark>Gitlab CI/CD</mark> pipelines and deploying the production application to a dynamically-scaled and load-balanced <mark>Elastic Container Service</mark>.
 
           While building this generative AI backend for Pria, I learned how to utilize both <mark>OpenAI</mark>'s LLMs and open-source models via <mark>HuggingFace</mark>, worked with <mark>Langchain</mark> agents and document integration chains, and created custom vector-embedding tools to expand Pria's knowledgebase.
+
           Pria is now being successfully used by dozens of academic institutions across the country and received two recognitions in the 2023 American Business Awards: *GOLD* for [Achievement in Online Training](https://stevieawards.com/aba/web-awards), and *BRONZE* for [Use of Artificial Intelligence in EdTech](https://stevieawards.com/aba/product-management-new-product-awards).
 
   ### EXPERIENCE
@@ -98,6 +99,26 @@ content:
       - layout: center
         description: 'Our Superconducting Consciousness. Reed Bender. February 2022, Independently Published to Medium. **[Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)**'
 
+  ### EDUCATION
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Clemson University
+        sub_title: M.S. in Biomedical Data Science and Informatics
+        caption: September 2019 - May 2021
+        description: |
+          During my graduate research at Clemson University with Dr. Alex Feltus in the Genetics and Biochemistry Department, I focused on scaling bioinformatics workflows for cancer genomics. This involved optimizing computational pipelines for efficient analysis of large genomic datasets, and scaling those pipelines onto distributed Kubernetes systems.
+
+      - layout: top-right
+        title: Clemson University
+        sub_title: B.S. in Bioengineering
+        caption: September 2016 - May 2020
+        description: |
+          I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College. In my undergraduate research, I integrated patient-specific RNA-sequencing data with public consortium datasets and then implemented a novel deep-learning approach for determining patient-specific transcriptomic abserations in cancer. 
+          
+          This work resulted in a [co-first authorship publication](https://doi.org/10.1016/j.patter.2020.100087), along with three other peer-reviewed publications and an additional conference proceeding.
+
   ### INVITED PRESENTATIONS
   - title: Presentations and Seminars
     layout: list
@@ -129,26 +150,6 @@ content:
       caption: Cisco Container Platform Case Study
       description: |
         I was interviewed as part of a Cisco marketing video promoting their Cisco Container Platform (CCP). During the interview, I discussed my experience deploying containerized software onto Cisco's cloud platform. **[Link](https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html#~case-study)**
-
-  ### EDUCATION
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Clemson University
-        sub_title: M.S. in Biomedical Data Science and Informatics
-        caption: September 2019 - May 2021
-        description: |
-          During my graduate research at Clemson University with Dr. Alex Feltus in the Genetics and Biochemistry Department, I focused on scaling bioinformatics workflows for cancer genomics. This involved optimizing pipelines on Kubernetes and Google Cloud for efficient analysis of large genomic datasets. I also trained undergraduate researchers and presented at the NIH Cancer Moonshot Symposium and Internet2's Technology Exchange Conference.
-
-          I'm proficient in Python, R, Bash, and orchestration tools like AWS, Docker, Nextflow, Kubernetes, GCP, and Cisco Container Platform. In my undergraduate research, I integrated patient-specific RNA-seq data into public datasets, applied deep learning for gene expression analysis, and co-authored publications, contributing to precision medicine in cancer.
-
-      - layout: top-right
-        title: Clemson University
-        sub_title: B.S. in Bioengineering
-        caption: September 2016 - May 2020
-        description: |
-          I completed my Bachelor of Science in Bioengineering with a concentration in Biomaterials and a minor in Genetics, graduating from the Clemson Honors College. My tenure in Dr. Alex Feltus' bioinformatics research lab began as a Junior in 2018, and continued through my masters program until graduating in 2021.
 
 ### BUILD
 footer_show_references: true
