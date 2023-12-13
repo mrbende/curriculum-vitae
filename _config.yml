@@ -61,9 +61,7 @@ content:
             url: https://reedbndr.gitlab.io/reed-bender-cv/resources/Feltus-recommendation.png
         caption: September 2022 - December 2023
         description: |
-          At Praxis AI, my key contribution was creating the generative AI backend for *Pria* as a LLM-agnostic agent that can source between tools and various language models, manage concurrent users and institutions, and perform Retrieval Augmented Generation on any data provided by users. She combines custom-built literature search tools, <mark>Zapier</mark> web hooks, long-term vector embedding memory in <mark>Pinecone</mark>, image generation with <mark>Stable Diffusion</mark>, and compatibility with ChatGPT plugins.
-
-          Additionally, I created and led a 12-week **[Foundations of AI](https://praxis-ai.com/courses/course-ai-foundations/)** digital course, covering extensive topics from data science to generative AI integrations, which also received a *GOLD* for [K-12 Course or Learning Management Solution](https://stevieawards.com/aba/product-management-new-product-awards) at the 2023 American Business Awards. This course covers everything from introductory statistics and linear algebra to advanced deep learning architectures, culminating in students building a <mark>Transformer</mark> model from scratch.
+          In addition to building the backend for Pria, I created and led a 12-week **[Foundations of AI](https://praxis-ai.com/courses/course-ai-foundations/)** digital course, covering extensive topics from data science to generative AI integrations, which also received a *GOLD* for [K-12 Course or Learning Management Solution](https://stevieawards.com/aba/product-management-new-product-awards) at the 2023 American Business Awards. This course covers everything from introductory statistics and linear algebra to advanced deep learning architectures, culminating in students building a <mark>Transformer</mark> model from scratch.
 
       - layout: left
         title: Research Associate, Computational Biology / AI at Flagship Labs 84
