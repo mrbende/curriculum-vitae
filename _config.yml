@@ -82,55 +82,48 @@ content:
     layout: list
     content:
       - layout: left
-        sub_title: Cellular State Transformations Using Deep Learning for Precision Medicine Applications.
-        caption: Colin Targonski*, M. Reed Bender*, et al. September 2020, Cell Patterns. **[Link](https://doi.org/10.1016/j.patter.2020.100087)**
+        description: 'Cellular State Transformations Using Deep Learning for Precision Medicine Applications. Colin Targonski*, M. Reed Bender*, et al. September 2020, Cell Patterns. **[Link](https://doi.org/10.1016/j.patter.2020.100087)**'
 
       - layout: left
-        sub_title: 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure.'
-        caption: John A. Hadish, Tyler D. Biggs, Benjamin T. Shealy, M. Reed Bender, et al. May 2022, BMC Bioinformatics. **[Link](https://doi.org/10.1186/s12859-022-04629-7)**
+        description: 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure. John A. Hadish, Tyler D. Biggs, Benjamin T. Shealy, M. Reed Bender, et al. May 2022, BMC Bioinformatics. **[Link](https://doi.org/10.1186/s12859-022-04629-7)**'
 
       - layout: left
-        sub_title: 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks.'
-        caption: Benafsh Husain, M. Reed Bender, Frank Alex Feltus. April 2022, G3. [Link](https://doi.org/10.1093/g3journal/jkac042)
+        description: 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks. Benafsh Husain, M. Reed Bender, Frank Alex Feltus. April 2022, G3. [Link](https://doi.org/10.1093/g3journal/jkac042)'
 
       - layout: left
-        sub_title: 'Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning.'
-        caption: Nicole M. Nelligan, M. Reed Bender, F. Alex Feltus. June 2022, BMC Cancer. [Link](https://doi.org/10.1186/s12885-022-09704-z)
+        description: 'Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning. Nicole M. Nelligan, M. Reed Bender, F. Alex Feltus. June 2022, BMC Cancer. [Link](https://doi.org/10.1186/s12885-022-09704-z)'
+
+        description: 'Exploring Lossy Compression of Gene Expression Matrices. Coleman B. McKnight, Alexandra L. Poulos, M. Reed Bender, et al. November 2019, Supercomputing Conference. [Link](https://ieeexplore.ieee.org/abstract/document/8955120)'
 
       - layout: left
-        sub_title: 'Exploring Lossy Compression of Gene Expression Matrices.'
-        caption: Coleman B. McKnight, Alexandra L. Poulos, M. Reed Bender, et al. November 2019, Supercomputing Conference. [Link](https://ieeexplore.ieee.org/abstract/document/8955120)
-
-      - layout: left
-        sub_title: 'Our Superconducting Consciousness'
-        caption: Reed Bender. February 2022, Independently Published to Medium. [Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)
+        description: 'Our Superconducting Consciousness. Reed Bender. February 2022, Independently Published to Medium. [Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)'
 
   ### INVITED PRESENTATIONS
   - title: Invited Presentations
     layout: list
     content:
-    - layout: top-right
+    - layout: top-left
       title: NIH Cancer Moonshot Symposium
       sub_title: Motivations For and Perceptions of Participants Controlling Their Own Data
       caption: September 2019
       description: |
         I presented at the NIH Cancer Moonshot Symposium on Patient Control of Genomic Data for Research and Health in Bethesda, MD. During the seminar, I discussed patient autonomy in managing genomic data records, highlighting the need for increased patient involvement in cancer treatment decisions.
 
-    - layout: top-right
+    - layout: top-left
       title: Internet2’s Technology Exchange Conference
       sub_title: Scaling Genomics Workflows with Kubernetes Hybrid Cloud Solutions
       caption: December 2019
       description: |
         At the Internet2’s Technology Exchange Conference in New Orleans, LA, I led a seminar workshop in collaboration with Cisco. The workshop aimed to educate cloud architects and computer engineering professionals about the basics of computational genomics and how to optimize cloud compute architecture for various bioinformatics workflows.
 
-    - layout: top-right
+    - layout: top-left
       title: Tri-Con Drug Discovery Hackathon
       sub_title: Preclinical Drug Discovery
       caption: March 2020
       description: |
         I led a hackathon team at the Tri-Con Drug Discovery Hackathon in San Francisco, CA. Our goal was to identify precision drugs capable of targeting genetic aberrations in a patient's cancer, specifically focusing on Bill Paseman's case. We presented our team's findings to the hackathon and Tri-Con seminar audience.
 
-    - layout: top-right
+    - layout: top-left
       title: Cisco Container Platform
       sub_title: Accelerating Biological Research with Multicloud Kubernetes
       caption: Cisco Container Platform Case Study
