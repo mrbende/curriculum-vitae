@@ -74,25 +74,25 @@ content:
             text: Reference
         caption: September 2021 - March 2023
         description: |
-          At Flagship Labs 84, an early-stage pharmaceutical startup, I played a crucial role as the first computational biologist tasked with developing advanced computational pipelines and managing cloud infrastructure for single-cell biomedical research.
+          As the third employee to join Flagship Labs 84, I played a pivotal role in processing and analyzing our single-cell RNA-sequencing data, as well as in building our computational infrastructure from the ground up. I developed Python scripts for complex single-cell analyses while closely collaborating with wet-lab biologists to plan experiments and rapidly iterate the scope of our bioinformatics pipelines. 
 
-          My responsibilities included architecting and executing sophisticated data processing pipelines, specifically designed for high-throughput single-cell genomics. Utilizing my Python skills and the <mark>Scanpy</mark> package, combined with expertise in <mark>AWS</mark> cloud architecture, I automated and refined numerous stages of data analysis, ensuring the efficient processing and insightful interpretation of extensive genomic datasets. My expertise was instrumental in configuring and maintaining high-performance cloud-based computational resources appropriate for the computational tasks encountered in cutting-edge biomedical research.
+          My role spanned across broad range of tasks including serving as the System Administrator for our team's expanding AWS environment, using machine learning to derive insights from <mark>Electronic Medical Records</mark>, processing single-cell gene expression data into visualizations and insghts with <mark>Scanpy</mark>, and interfacing between the computational and biological sciences while communicating effectively with both.
 
   ### CITATION REFERENCES
   - title: Publications
     layout: list
     content:
-      - 'Cellular State Transformations Using Deep Learning for Precision Medicine Applications. Colin Targonski*, M. Reed Bender*, et al. September 2020, Cell Patterns. **[Link](https://doi.org/10.1016/j.patter.2020.100087)**'
+      'Cellular State Transformations Using Deep Learning for Precision Medicine Applications. Colin Targonski*, M. Reed Bender*, et al. September 2020, Cell Patterns. **[Link](https://doi.org/10.1016/j.patter.2020.100087)**'
 
-      - 'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure. John A. Hadish, Tyler D. Biggs, Benjamin T. Shealy, M. Reed Bender, et al. May 2022, BMC Bioinformatics. **[Link](https://doi.org/10.1186/s12859-022-04629-7)**'
+      'GEMmaker: process massive RNAseq datasets on heterogeneous computational infrastructure. John A. Hadish, Tyler D. Biggs, Benjamin T. Shealy, M. Reed Bender, et al. May 2022, BMC Bioinformatics. **[Link](https://doi.org/10.1186/s12859-022-04629-7)**'
 
-      - 'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks. Benafsh Husain, M. Reed Bender, Frank Alex Feltus. April 2022, G3. **[Link](https://doi.org/10.1093/g3journal/jkac042)'
+      'EdgeCrafting: mining embedded, latent, nonlinear patterns to construct gene relationship networks. Benafsh Husain, M. Reed Bender, Frank Alex Feltus. April 2022, G3. **[Link](https://doi.org/10.1093/g3journal/jkac042)'
 
-      - 'Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning. Nicole M. Nelligan, M. Reed Bender, F. Alex Feltus. June 2022, BMC Cancer. **[Link](https://doi.org/10.1186/s12885-022-09704-z)**'
+      'Simulating the restoration of normal gene expression from different thyroid cancer stages using deep learning. Nicole M. Nelligan, M. Reed Bender, F. Alex Feltus. June 2022, BMC Cancer. **[Link](https://doi.org/10.1186/s12885-022-09704-z)**'
 
-      - 'Exploring Lossy Compression of Gene Expression Matrices. Coleman B. McKnight, Alexandra L. Poulos, M. Reed Bender, et al. November 2019, Supercomputing Conference. **[Link](https://ieeexplore.ieee.org/abstract/document/8955120)**'
+      'Exploring Lossy Compression of Gene Expression Matrices. Coleman B. McKnight, Alexandra L. Poulos, M. Reed Bender, et al. November 2019, Supercomputing Conference. **[Link](https://ieeexplore.ieee.org/abstract/document/8955120)**'
 
-      - 'Our Superconducting Consciousness. Reed Bender. February 2022, Independently Published to Medium. **[Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)**'
+      'Our Superconducting Consciousness. Reed Bender. February 2022, Independently Published to Medium. **[Link](https://medium.com/@reedbender/our-superconducing-consciousness-26c9a82072fc)**'
 
   ### EDUCATION
   - title: Education
