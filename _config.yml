@@ -9,7 +9,8 @@ darkmode: true
 ### MY INFO
 name: Reed Bender
 title: Generative AI Engineer // Computational Biologist
-email: reedbndr at gmail dot com
+email: reedbndr@gmail.com
+website: https://mrbende.github.io/curriculum-vitae/
 website: https://reedbender.com
 
 ### SOCIAL
@@ -123,28 +124,28 @@ content:
       sub_title: Motivations For and Perceptions of Participants Controlling Their Own Data
       caption: September 2019
       description: |
-        I presented at the NIH Cancer Moonshot Symposium on Patient Control of Genomic Data for Research and Health in Bethesda, MD. During the seminar, I discussed patient autonomy in managing genomic data records, highlighting the need for increased patient involvement in cancer treatment decisions. **[Link](https://www.youtube.com/watch?v=uj_yCcmgTNI&feature=youtu.be)**
+        I presented at the NIH Cancer Moonshot Symposium on Patient Control of Genomic Data for Research and Health in Bethesda, MD. During the seminar, I discussed patient autonomy in managing genomic data records, highlighting the need for increased patient involvement in cancer treatment decisions. *[Link](https://www.youtube.com/watch?v=uj_yCcmgTNI&feature=youtu.be)*
 
     - layout: top-left
       title: Internet2’s Technology Exchange Conference
       sub_title: Scaling Genomics Workflows with Kubernetes Hybrid Cloud Solutions
       caption: December 2019
       description: |
-        At the Internet2’s Technology Exchange Conference in New Orleans, LA, I led a seminar workshop in collaboration with Cisco. The workshop aimed to educate cloud architects and computer engineering professionals about the basics of computational genomics and how to optimize cloud compute architecture for various bioinformatics workflows. **[Link](https://meetings.internet2.edu/2019-technology-exchange/program-guide/tutorials-workshops/)**
+        At the Internet2’s Technology Exchange Conference in New Orleans, LA, I led a seminar workshop in collaboration with Cisco. The workshop aimed to educate cloud architects and computer engineering professionals about the basics of computational genomics and how to optimize cloud compute architecture for various bioinformatics workflows. *[Link](https://meetings.internet2.edu/2019-technology-exchange/program-guide/tutorials-workshops/)*
 
     - layout: top-left
       title: Tri-Con Drug Discovery Hackathon
       sub_title: Preclinical Drug Discovery
       caption: March 2020
       description: |
-        I led a hackathon team at the Tri-Con Drug Discovery Hackathon in San Francisco, CA. Our goal was to identify precision drugs capable of targeting genetic aberrations in a patient's cancer, specifically focusing on Bill Paseman's case. We presented our team's findings to the hackathon and Tri-Con seminar audience. **[Link](http://rarekidneycancer.org/blog/2020-kidney-cancer-hackathon-results)**
+        I led a hackathon team at the Tri-Con Drug Discovery Hackathon in San Francisco, CA. Our goal was to identify precision drugs capable of targeting genetic aberrations in a patient's cancer, specifically focusing on Bill Paseman's case. We presented our team's findings to the hackathon and Tri-Con seminar audience. *[Link](http://rarekidneycancer.org/blog/2020-kidney-cancer-hackathon-results)*
 
     - layout: top-left
       title: Cisco Container Platform
       sub_title: Accelerating Biological Research with Multicloud Kubernetes
       caption: Cisco Container Platform Case Study
       description: |
-        I was interviewed as part of a Cisco marketing video promoting their Cisco Container Platform (CCP). During the interview, I discussed my experience deploying containerized software onto Cisco's cloud platform. **[Link](https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html#~case-study)**
+        I was interviewed as part of a Cisco marketing video promoting their Cisco Container Platform (CCP). During the interview, I discussed my experience deploying containerized software onto Cisco's cloud platform. *[Link](https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html#~case-study)*
 
 ### BUILD
 footer_show_references: true

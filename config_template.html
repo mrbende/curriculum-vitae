@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ content['name'] }} - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>{{ content['name'] }}</h1>
+            <h2>{{ content['title'] }}</h2>
+            <div class="contact-info">
+                <p>Email: {{ content['email'] }}</p>
+                <p>Web: {{ content['website'] }}</p>
+            </div>
+            <!-- Social Links -->
+            <div class="social-links">
+                {% if content['twitter_username'] %}<a href="https://twitter.com/{{ content['twitter_username'] }}"><i
+                        class="fab fa-twitter"></i></a>{% endif %}
+                {% if content['instagram_username'] %}<a
+                    href="https://instagram.com/{{ content['instagram_username'] }}"><i
+                        class="fab fa-instagram"></i></a>{% endif %}
+                {% if content['linkedin_username'] %}<a
+                    href="https://linkedin.com/in/{{ content['linkedin_username'] }}"><i
+                        class="fab fa-linkedin"></i></a>{% endif %}
+                {% if content['github_username'] %}<a href="https://github.com/{{ content['github_username'] }}"><i
+                        class="fab fa-github"></i></a>{% endif %}
+                {% if content['youtube_username'] %}<a href="https://youtube.com/{{ content['youtube_username'] }}"><i
+                        class="fab fa-youtube"></i></a>{% endif %}
+            </div>
+        </header>
+
+        <section class="about-me">
+            <h3>{{ content['about_title'] }}</h3>
+            <p>{{ content['about_content'] | safe }}</p>
+        </section>
+
+        <!-- Dynamically loaded content -->
+        {% for section in content['content'] %}
+        <section class="{{ section['title'] | lower }}">
+            <h3>{{ section['title'] }}</h3>
+            {% for item in section['content'] %}
+            <article>
+                <h4>{{ item['title'] }}</h4>
+                <p>{{ item['description'] | safe }}</p>
+            </article>
+            {% endfor %}
+        </section>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

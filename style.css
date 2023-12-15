@@ -1,0 +1,96 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #4a4a4a;
+    color: #e2e2e2;
+}
+
+@page {
+    size: A4;
+    margin: 4mm;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 10px;
+}
+
+.profile-img-wrapper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: url('images/profile.jpg') center/cover no-repeat;
+    margin-right: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-content h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.header-content h2 {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.social-links a {
+    color: #89CFF0;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-links i {
+    font-size: 24px;
+}
+
+.markdown-highlight {
+    background-color: #ffffff;
+    color: #333;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.section {
+    border-bottom: 9px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+mark {
+    background-color: #ffffff;
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+a,
+.social-links a {
+    color: #89CFF0;
+    text-decoration: none;
+}
+
+a:hover,
+.social-links a:hover {
+    color: #2ab1de;
+}
