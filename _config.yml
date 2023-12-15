@@ -77,7 +77,7 @@ content:
         description: |
           As the third employee to join Flagship Labs 84, I played a pivotal role in processing and analyzing our single-cell RNA-sequencing data, as well as in building our computational infrastructure from the ground up. I developed Python scripts for complex single-cell analyses while closely collaborating with wet-lab biologists to plan experiments and rapidly iterate the scope of our bioinformatics pipelines. 
 
-          My role spanned across broad range of tasks including serving as the System Administrator for our team's expanding AWS environment, using machine learning to derive insights from <mark>Electronic Medical Records</mark>, processing single-cell gene expression data into visualizations and insghts with <mark>Scanpy</mark>, and interfacing between the computational and biological sciences while communicating effectively with both.
+          My role spanned across broad range of tasks including serving as the System Administrator for our team's expanding AWS environment, using machine learning to derive insights from <mark>Electronic Medical Records</mark>, processing single-cell gene expression data into visualizations and insights with <mark>Scanpy</mark>, and interfacing between the computational and biological sciences while communicating effectively with both.
 
   ### CITATION REFERENCES
   - title: Publications
